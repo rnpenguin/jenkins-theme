@@ -95,9 +95,9 @@ body {
     height: 100%!important;
 }
 
-#footer-container {
-    background: rgba(0,0,0,.05)!important;
-    border: none!important;
+#footer {
+    background: rgba(0,0,0,.04);
+    color: #505050!important;
 }
 
 #footer>a {
@@ -105,6 +105,9 @@ body {
 }
 
 #footer-container {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
 }
 
 a {
